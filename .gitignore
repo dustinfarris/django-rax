@@ -1,0 +1,13 @@
+*.pyc
+.DS_Store
+*.egg-info
+*.log
+*.egg
+*.pid
+pip-log.txt
+/build
+/dist
+/env
+/example/env
+example.db
+/docs/_build
