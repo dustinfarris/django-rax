@@ -75,8 +75,9 @@ $ python manage.py raxsync
 ```
 
 If you use the RaxStorage backend, your media files will be saved both
-locally and to Rackspace.  If you have existing media files that need
-to be uploaded, use the management command with the media flag:
+locally and to Rackspace as they are added.  If you have existing media 
+files that need to be uploaded, use the management command with the 
+media flag:
 
 ```sh
 $ python manage.py raxsync --media
