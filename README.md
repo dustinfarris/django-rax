@@ -59,10 +59,27 @@ Django Compressor
 -----------------
 
 If you use django-compressor, you will need to turn on the compress
-offline to ensure the compressed files are available for syncing.
+offline option to ensure the compressed files are available for syncing.
 
 ```python
 COMPRESS_OFFLINE = True
+```
+
+Usage
+-----
+
+Use the command line to synchronize your static files with Rackspace:
+
+```sh
+$ python manage.py raxsync
+```
+
+If you use the RaxStorage backend, your media files will be saved both
+locally and to Rackspace.  If you have existing media files that need
+to be uploaded, use the management command with the media flag:
+
+```sh
+$ python manage.py raxsync --media
 ```
 
 Help
