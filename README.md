@@ -39,6 +39,7 @@ RAX = {
   'API_KEY': 'yourapikey',
   'REGION': 'ORD',
   'CONTAINER': 'yourcontainer'}
+```
 
 "REGION" can be one of ORD, DFW, or LON. If this is not specified, it
 will default to Chicago (ORD).
