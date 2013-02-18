@@ -19,7 +19,7 @@ tests_require = []
 
 install_requires = [
     'Django>=1.4,<1.5',
-    'pyrax==1.2.6']
+    'pyrax==1.2.8']
 
 setup(
     name='django-rax',
