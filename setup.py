@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 tests_require = []
 
 install_requires = [
-    'Django>=1.4,<1.5',
+    'Django>=1.4',
     'pyrax==1.2.8']
 
 setup(
