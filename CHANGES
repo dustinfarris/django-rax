@@ -1,3 +1,9 @@
+Version 0.3
+-----------
+
+- Removing maximum Django version constraint (allowing 1.5)
+
+
 Version 0.2
 -----------
 
