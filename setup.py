@@ -23,7 +23,7 @@ install_requires = [
 
 setup(
     name='django-rax',
-    version='0.3',
+    version='0.4',
     author='Dustin Farris',
     author_email='dustin@dustinfarris.com',
     url='https://github.com/dustinfarris/django-rax',
